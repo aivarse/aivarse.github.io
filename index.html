@@ -1,22 +1,423 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="web.css">
-    <a href="https://www.htmlhobbyist.com/">
-  <img src="/images/html-hobbyist-badge.svg" height="250" width="250" alt="I am an HTML Hobbyist" />
-    </a>
-    <title>Index.html</title>
+    <title>Čeku Kategoriju Pārskats</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            margin-top: 0;
+            color: #1a252f;
+            font-size: 24px;
+        }
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+            text-align: right;
+            white-space: nowrap;
+        }
+        th:first-child { text-align: left; }
+        td {
+            border-bottom: 1px solid #eef2f5;
+            padding: 10px 12px;
+            text-align: right;
+            white-space: nowrap;
+        }
+        td:first-child {
+            text-align: left;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        tr:hover { background-color: #f8fafc; }
+        tr:last-child {
+            background-color: #e8f8f5;
+            font-weight: bold;
+            border-top: 2px solid #2ecc71;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #7f8c8d;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
-    <p>This is my first page.</p>
-    <p>Mana pirmā lapa uz Github</p>
-    
-    <a href="https://mayborg121.github.io/xs/">Website</a>
-<a href="/test-image.html">Čeks</a>
-    
-    <a href="https://devpractical.com/">Another website</a>
+    <div class="container">
+        <h1>📊 Čeku kategoriju mēnešu pārskats</h1>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Kategorija</th>
+                        <th>2025-12</th>
+                        <th>2026-01</th>
+                        <th>2026-02</th>
+                        <th>2026-03</th>
+                        <th>2026-04</th>
+                        <th>2026-05</th>
+                        <th>2026-06</th>
+                        <th>2026-07</th>
+                        <th>2026-08</th>
+                        <th>2026-09</th>
+                        <th>KOPĀ_Kategorijā</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alkohols</td>
+                        <td>0.00 €</td>
+                        <td>8.99 €</td>
+                        <td>15.98 €</td>
+                        <td>18.50 €</td>
+                        <td>18.99 €</td>
+                        <td>24.27 €</td>
+                        <td>31.76 €</td>
+                        <td>5.99 €</td>
+                        <td>16.48 €</td>
+                        <td>0.00 €</td>
+                        <td>140.96 €</td>
+                    </tr>
+                    <tr>
+                        <td>Apģērbs / Apavi</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>70.85 €</td>
+                        <td>108.99 €</td>
+                        <td>15.56 €</td>
+                        <td>38.65 €</td>
+                        <td>0.00 €</td>
+                        <td>4.99 €</td>
+                        <td>6.99 €</td>
+                        <td>246.03 €</td>
+                    </tr>
+                    <tr>
+                        <td>Atlaides</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>-4.92 €</td>
+                        <td>-2.70 €</td>
+                        <td>-46.96 €</td>
+                        <td>-14.86 €</td>
+                        <td>3.75 €</td>
+                        <td>-14.00 €</td>
+                        <td>-1.20 €</td>
+                        <td>-80.89 €</td>
+                    </tr>
+                    <tr>
+                        <td>Augļi / Dārzeņi</td>
+                        <td>0.00 €</td>
+                        <td>11.53 €</td>
+                        <td>38.32 €</td>
+                        <td>84.37 €</td>
+                        <td>132.52 €</td>
+                        <td>170.80 €</td>
+                        <td>161.46 €</td>
+                        <td>38.42 €</td>
+                        <td>48.48 €</td>
+                        <td>1.55 €</td>
+                        <td>687.45 €</td>
+                    </tr>
+                    <tr>
+                        <td>Autopreces</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>2.40 €</td>
+                        <td>0.00 €</td>
+                        <td>53.94 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>520.00 €</td>
+                        <td>0.00 €</td>
+                        <td>576.34 €</td>
+                    </tr>
+                    <tr>
+                        <td>Cits</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>112.76 €</td>
+                        <td>70.16 €</td>
+                        <td>40.20 €</td>
+                        <td>20.25 €</td>
+                        <td>20.50 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>263.87 €</td>
+                    </tr>
+                    <tr>
+                        <td>Degviela</td>
+                        <td>47.98 €</td>
+                        <td>74.74 €</td>
+                        <td>116.50 €</td>
+                        <td>57.62 €</td>
+                        <td>60.37 €</td>
+                        <td>135.84 €</td>
+                        <td>74.84 €</td>
+                        <td>41.15 €</td>
+                        <td>40.95 €</td>
+                        <td>40.00 €</td>
+                        <td>689.99 €</td>
+                    </tr>
+                    <tr>
+                        <td>Depozīts</td>
+                        <td>0.00 €</td>
+                        <td>0.70 €</td>
+                        <td>3.60 €</td>
+                        <td>5.40 €</td>
+                        <td>3.20 €</td>
+                        <td>7.10 €</td>
+                        <td>4.40 €</td>
+                        <td>1.70 €</td>
+                        <td>2.30 €</td>
+                        <td>0.80 €</td>
+                        <td>29.20 €</td>
+                    </tr>
+                    <tr>
+                        <td>Dzērieni</td>
+                        <td>0.00 €</td>
+                        <td>3.29 €</td>
+                        <td>51.57 €</td>
+                        <td>90.25 €</td>
+                        <td>51.54 €</td>
+                        <td>45.48 €</td>
+                        <td>90.67 €</td>
+                        <td>39.48 €</td>
+                        <td>32.39 €</td>
+                        <td>8.22 €</td>
+                        <td>412.89 €</td>
+                    </tr>
+                    <tr>
+                        <td>Garšvielas / Piedevas</td>
+                        <td>0.00 €</td>
+                        <td>4.95 €</td>
+                        <td>11.34 €</td>
+                        <td>32.67 €</td>
+                        <td>37.56 €</td>
+                        <td>39.05 €</td>
+                        <td>19.43 €</td>
+                        <td>13.16 €</td>
+                        <td>29.67 €</td>
+                        <td>0.00 €</td>
+                        <td>187.83 €</td>
+                    </tr>
+                    <tr>
+                        <td>Gaļa / Zivis</td>
+                        <td>0.00 €</td>
+                        <td>18.83 €</td>
+                        <td>47.25 €</td>
+                        <td>111.60 €</td>
+                        <td>139.85 €</td>
+                        <td>266.02 €</td>
+                        <td>246.68 €</td>
+                        <td>111.25 €</td>
+                        <td>85.74 €</td>
+                        <td>7.20 €</td>
+                        <td>1034.42 €</td>
+                    </tr>
+                    <tr>
+                        <td>Higiēna</td>
+                        <td>0.00 €</td>
+                        <td>6.99 €</td>
+                        <td>3.39 €</td>
+                        <td>173.38 €</td>
+                        <td>53.72 €</td>
+                        <td>52.09 €</td>
+                        <td>38.75 €</td>
+                        <td>51.03 €</td>
+                        <td>31.45 €</td>
+                        <td>0.00 €</td>
+                        <td>410.80 €</td>
+                    </tr>
+                    <tr>
+                        <td>Kafija / Tēja un tml</td>
+                        <td>0.00 €</td>
+                        <td>3.99 €</td>
+                        <td>0.00 €</td>
+                        <td>48.00 €</td>
+                        <td>20.68 €</td>
+                        <td>0.00 €</td>
+                        <td>19.68 €</td>
+                        <td>2.63 €</td>
+                        <td>1.99 €</td>
+                        <td>0.00 €</td>
+                        <td>96.97 €</td>
+                    </tr>
+                    <tr>
+                        <td>Maize / Milti</td>
+                        <td>0.00 €</td>
+                        <td>2.79 €</td>
+                        <td>29.96 €</td>
+                        <td>26.48 €</td>
+                        <td>22.19 €</td>
+                        <td>36.26 €</td>
+                        <td>60.44 €</td>
+                        <td>42.27 €</td>
+                        <td>50.29 €</td>
+                        <td>6.75 €</td>
+                        <td>277.43 €</td>
+                    </tr>
+                    <tr>
+                        <td>Medikamenti / Medicīna</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>-0.02 €</td>
+                        <td>114.94 €</td>
+                        <td>5.57 €</td>
+                        <td>0.00 €</td>
+                        <td>38.01 €</td>
+                        <td>0.00 €</td>
+                        <td>31.94 €</td>
+                        <td>190.44 €</td>
+                    </tr>
+                    <tr>
+                        <td>Mājdzīvnieki</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>2.99 €</td>
+                        <td>24.38 €</td>
+                        <td>17.30 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>57.99 €</td>
+                        <td>15.52 €</td>
+                        <td>118.18 €</td>
+                    </tr>
+                    <tr>
+                        <td>Olas</td>
+                        <td>0.00 €</td>
+                        <td>2.49 €</td>
+                        <td>16.63 €</td>
+                        <td>16.11 €</td>
+                        <td>16.71 €</td>
+                        <td>18.93 €</td>
+                        <td>11.16 €</td>
+                        <td>5.45 €</td>
+                        <td>5.14 €</td>
+                        <td>0.00 €</td>
+                        <td>92.62 €</td>
+                    </tr>
+                    <tr>
+                        <td>Pakalpojumi</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>29.00 €</td>
+                        <td>0.00 €</td>
+                        <td>65.00 €</td>
+                        <td>0.00 €</td>
+                        <td>68.76 €</td>
+                        <td>91.30 €</td>
+                        <td>3.75 €</td>
+                        <td>257.81 €</td>
+                    </tr>
+                    <tr>
+                        <td>Piena produkti</td>
+                        <td>0.00 €</td>
+                        <td>6.21 €</td>
+                        <td>26.13 €</td>
+                        <td>80.32 €</td>
+                        <td>70.51 €</td>
+                        <td>105.58 €</td>
+                        <td>109.73 €</td>
+                        <td>45.20 €</td>
+                        <td>42.04 €</td>
+                        <td>14.47 €</td>
+                        <td>500.19 €</td>
+                    </tr>
+                    <tr>
+                        <td>Saimniecība</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>48.93 €</td>
+                        <td>260.59 €</td>
+                        <td>66.63 €</td>
+                        <td>151.71 €</td>
+                        <td>37.24 €</td>
+                        <td>152.50 €</td>
+                        <td>32.23 €</td>
+                        <td>0.83 €</td>
+                        <td>750.66 €</td>
+                    </tr>
+                    <tr>
+                        <td>Uzkodas / Kārumi / Saldumi</td>
+                        <td>0.00 €</td>
+                        <td>6.08 €</td>
+                        <td>37.35 €</td>
+                        <td>87.55 €</td>
+                        <td>75.59 €</td>
+                        <td>47.87 €</td>
+                        <td>61.62 €</td>
+                        <td>33.39 €</td>
+                        <td>33.19 €</td>
+                        <td>5.37 €</td>
+                        <td>388.01 €</td>
+                    </tr>
+                    <tr>
+                        <td>Veloremonts</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>4.79 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>0.00 €</td>
+                        <td>4.79 €</td>
+                    </tr>
+                    <tr>
+                        <td>KOPĀ MĒNESĪ</td>
+                        <td>47.98 €</td>
+                        <td>151.58 €</td>
+                        <td>449.94 €</td>
+                        <td>1327.29 €</td>
+                        <td>1078.75 €</td>
+                        <td>1239.10 €</td>
+                        <td>1011.90 €</td>
+                        <td>714.64 €</td>
+                        <td>1112.62 €</td>
+                        <td>142.19 €</td>
+                        <td>7275.99 €</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            Atjaunināts automātiski no Linux streama.
+        </div>
+    </div>
 </body>
 </html>
